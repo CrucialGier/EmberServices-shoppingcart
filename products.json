@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "title": "Clothes",
+      "image": "http://i.ebayimg.com/images/m/mA6m8ybKiDLBEWNB1ZbvE3w/s-l225/p.jpg",
+      "description": "You wear them sometimes",
+      "cost": "999.99"
+    },
+    {
+      "title": "Foods",
+      "image": "https://www.health.harvard.edu/media/content/images/good-vs-bad-food-unhealthy-junk-iStock_000058524328_Medium.jpg",
+      "description": "all kinds except meats please",
+      "cost": "10.50"
+    },
+    {
+      "title": "Games",
+      "image": "http://www.zwitserlandcasino.ch/wp-content/uploads/2016/03/online-casino-list.jpg",
+      "description": "and heres my paycheck",
+      "cost": "15.00"
+    },
+    {
+      "title": "etc",
+      "image": "https://www.thestar.com/content/dam/thestar/news/world/royals/2012/05/26/quiz_i_spy_queen_elizabeth/i_spy_thequeen.jpeg",
+      "description": "the part where imagination fails",
+      "cost": "23.45"
+    }
+  ]
+}

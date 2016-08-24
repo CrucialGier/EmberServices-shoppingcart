@@ -1,0 +1,12 @@
+.products {
+  display: flex;
+  flex-direction: column;
+  .ember-view {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    .item-image {
+      width: 150px;
+    }
+  }
+}
