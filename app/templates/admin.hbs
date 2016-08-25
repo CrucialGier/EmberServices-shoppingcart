@@ -1,0 +1,8 @@
+{{add-item saveProduct2="saveProduct3"}}
+<section class="products">
+  {{#each model as |product|}}
+  {{product.title}}
+  <img src="{{product.image}}" alt="product" />
+  <button {{action 'destroyProduct' product}}>Remove from Cart</button>
+  {{/each}}
+</section>
