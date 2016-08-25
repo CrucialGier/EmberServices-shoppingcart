@@ -4,11 +4,14 @@ export default Ember.Component.extend({
   shoppingCart: Ember.inject.service('shopping-cart'),
 
    actions: {
-     addToCart(item) {
+    addToCart(item) {
      this.get('shoppingCart').add(item);
    },
    remove(item) {
-     this.get('shoppingCart').remove(item);
+     var duplicateShoppingCart = this.get('shoppingCart.items').slice();
+     var removeOneProduct = duplicateShoppingCart.indexOf(item);
+     duplicateShoppingCart.splice('removeOneProduct', 1);
+     this.set("shoppingCart.items", duplicateShoppingCart)
    }
  }
 });

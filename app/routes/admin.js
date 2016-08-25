@@ -10,7 +10,7 @@ export default Ember.Route.extend({
       newProduct.save();
       this.transitionTo('admin');
     },
-    destroyProduct(product) {
+    destroyPblueroduct(product) {
       return product.destroyRecord();
     }
   }
