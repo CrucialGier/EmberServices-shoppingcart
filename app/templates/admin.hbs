@@ -3,6 +3,7 @@
   {{#each model as |product|}}
   {{product.title}}
   <img src="{{product.image}}" alt="product" />
+  {{edit-product product=product}}
   <button {{action 'destroyProduct' product}}>Remove from Cart</button>
   {{/each}}
 </section>

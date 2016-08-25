@@ -11,7 +11,7 @@ export default Ember.Component.extend({
      var duplicateShoppingCart = this.get('shoppingCart.items').slice();
      var removeOneProduct = duplicateShoppingCart.indexOf(item);
      duplicateShoppingCart.splice('removeOneProduct', 1);
-     this.set("shoppingCart.items", duplicateShoppingCart)
+     this.set("shoppingCart.items", duplicateShoppingCart);
    }
  }
 });
